@@ -12,6 +12,7 @@ function ItemForm({onAddItem}) {
 
   function handleSubmit(e) {
     e.preventDefault();
+    setName("");
     const itemData = {
       name: name,
       category: category,
